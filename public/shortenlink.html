@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SHORTEN URL</title>
+    <link href="https://pagecdn.io/lib/easyfonts/fonts.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Caveat Brush"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pangolin"
+    />
+    <link rel="stylesheet" href="./shortenlink.css" />
+  </head>
+  <body>
+    <h1>SHORTEN URL</h1>
+    <div class="container">
+      <input
+        type="text"
+        class="input1"
+        id="input1"
+        placeholder="Paste Long URL"
+      />
+      <input type="text" class="input2" id="input2" placeholder="Name" />
+      <button class="btn" onclick="generatelink()">SHORTEN LINK</button>
+    </div>
+    <div class="short">
+      <span id="shorturl" class="shorturl"></span>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+  <script src="./source.js"></script>
+</html>

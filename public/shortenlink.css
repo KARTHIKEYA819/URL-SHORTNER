@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  font-size: 96px;
+  font-family: Peralta;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  background-color: #526cae;
+  margin: auto;
+  text-align: center;
+  height: 140px;
+  display: block;
+  border-radius: 69px;
+  width: 1425px;
+}
+.input1 {
+  height: 50px;
+  width: 700px;
+  border-radius: 25px;
+  margin-top: 38px;
+  margin-left: 50px;
+  font-family: Caveat Brush;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.input2 {
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  margin-top: 38px;
+  margin-left: 50px;
+  font-family: Caveat Brush;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.btn {
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  margin-top: 38px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Caveat Brush;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.short {
+  margin: auto;
+  text-align: center;
+}
+.shorturl {
+  font-family: Pangolin;
+  font-size: 50px;
+}
